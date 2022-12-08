@@ -9,10 +9,9 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace AlgimedTask
 {
-    //написать комменты, удалить лишние юзинги
     public partial class mainForm : Form
     {
-        public static string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}..\..\..\Data\Input Data_ПО.csv";
+        public static string filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}Input Data.csv";
         private List<string> headCells = new List<string> { "C01", "D01", "F01" };
         private List<string> sideCells = new List<string> { "E01", "G01", "H01", };
         private Result[] results;

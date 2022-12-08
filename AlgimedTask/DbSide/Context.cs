@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace AlgimedTask
 {
@@ -9,7 +10,7 @@ namespace AlgimedTask
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            string dbPath = $"{mainForm.filePath }\\..\\AlgimedDb.db";
+            string dbPath = $"{mainForm.filePath }\\..\\sec\\AlgimedDb.db";          
             options.UseSqlite($"Data Source={dbPath}");
         }
     }
