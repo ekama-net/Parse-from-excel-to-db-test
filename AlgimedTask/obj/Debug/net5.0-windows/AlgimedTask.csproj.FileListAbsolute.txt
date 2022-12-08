@@ -56,3 +56,4 @@ M:\programming\Projects\AlgimedTask\AlgimedTask\bin\Debug\net5.0-windows\runtime
 M:\programming\Projects\AlgimedTask\AlgimedTask\bin\Debug\net5.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 M:\programming\Projects\AlgimedTask\AlgimedTask\bin\Debug\net5.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 M:\programming\Projects\AlgimedTask\AlgimedTask\obj\Debug\net5.0-windows\AlgimedTask.csproj.CopyComplete
+M:\programming\Projects\AlgimedTask\AlgimedTask\obj\Debug\net5.0-windows\AlgimedTask.csproj.AssemblyReference.cache

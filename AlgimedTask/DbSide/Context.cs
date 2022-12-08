@@ -9,8 +9,8 @@ namespace AlgimedTask
         public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            string dbPath = $"{mainForm.filePath }\\..\\sec\\AlgimedDb.db";          
+        {        
+            string dbPath = $@"{AppDomain.CurrentDomain.BaseDirectory}\sec\AlgimedDb.db";          
             options.UseSqlite($"Data Source={dbPath}");
         }
     }
